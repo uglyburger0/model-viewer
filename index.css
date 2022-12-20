@@ -1,0 +1,55 @@
+label {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    padding-top: 6px;
+}
+
+.notification {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 4px red;
+    font-size: smaller;
+    padding-top: 12px;
+}
+
+header {
+    position: fixed;
+    padding-left: 6px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    overflow: visible;
+}
+
+body {
+    margin: 0;
+    background: transparent !important;
+}
+
+input {
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(255,255,255,.3);
+}
+input[type="file"] {
+    width: 100%;
+    color: white;
+    background: transparent;
+}
+input[type="number"] {
+    color: white;
+    border: solid 2px transparent;
+    width: 45px;
+    text-align: center;
+}
+
+#orientation-x {
+    color: red;
+}
+#orientation-y {
+    color: greenyellow;
+}
+#orientation-z {
+    color: blue;
+}

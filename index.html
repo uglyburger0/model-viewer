@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html style="overflow: hidden; background: transparent !important;">
+    <link rel="stylesheet" href="index.css">
+    <body>
+        <!-- Header settings -->
+        <header id="header">
+            <!-- Buttons -->
+            <label>Model</label>
+            <input id="insert-model" class="option" type="file" accept=".obj, .stl"></input>
+            <label>Orientation (X,Y,Z)</label>
+            <div>
+                <input id="orientation-x" class="orientation" type="number" value="0"></input>
+                <input id="orientation-y" class="orientation" type="number" value="0"></input>
+                <input id="orientation-z" class="orientation" type="number" value="0"></input>
+            </div>
+            <!-- Scripts -->
+            <script src="/scripts/onSpace.js"></script>
+            <script src="/scripts/property.js"></script>
+        </header>
+
+        <!-- Launch three.js -->
+        <script src="/node_modules/three/build/three.js"></script>
+        <!-- Controls -->
+        <script src="/node_modules/three/examples/js/controls/OrbitControls.js"></script>
+        <!-- Loaders -->
+        <script src="/node_modules/three/examples/js/loaders/STLLoader.js"></script>
+        <script src="/node_modules/three/examples/js/loaders/OBJLoader.js"></script>
+        <script src="/node_modules/three/examples/js/loaders/FBXLoader.js"></script>
+        <!-- Index script -->
+        <script src="/scripts/index.js"></script>
+    </body>
+</html>
