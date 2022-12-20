@@ -1,7 +1,11 @@
 node_modules
 .vscode
 
+
 # File types
 *.obj
 *.fbx
 *.stl
+
+# Exceptions
+!*default.STL
