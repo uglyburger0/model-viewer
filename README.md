@@ -13,3 +13,7 @@ This beast can handle **2** file types
 |`.obj`|✅|
 |`.stl`|✅|
 |`.png`|🚫|
+
+----
+## Texture viewer?
+Doesn't have one
