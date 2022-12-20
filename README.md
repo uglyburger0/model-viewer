@@ -2,7 +2,6 @@
 
 ## How to install?
 When you have the respository run the command: ```npm i package.json```
-Btw look at this awesome color `#ff00ff`
 
 ## About me
 This beast can handle **2** file types
