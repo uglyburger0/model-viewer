@@ -1,10 +1,15 @@
 # Model Viewer (Except it's not really that good)
 
 ## How to install?
-When you have the respository run the command: ```npm i package.json```
+Within the repository, run ```npm i three``` in a terminal.
+This should install the `three.js` package required to show any models.
 
-## About me
-This beast can handle **2** file types
+### Usage
+This model viewer was specifically designed for a browser source in OBS.
+
+You can create a browser source and set the path to the system path to the `index.html` file. You can then use the **Interact** button to click on **Choose Model** and select your model.
+
+## Supported File Types
 | File Type | Does it work?? |
 |-----:|---------------|
 |`.ftl`|🚫|
@@ -13,10 +18,14 @@ This beast can handle **2** file types
 |`.ply`|🚫|
 |`.glb`|🚫|
 |`.usd`|🚫|
-|`.obj`|✅|
+|`.obj`|🤷|
 |`.stl`|✅|
 |`.png`|🚫|
 
 ----
-## Texture viewer?
-Doesn't have one
+This project was designed for @Nicant02
+
+### To-do:
+- Somehow fix `.obj` files.
+- Colors
+- Orientation

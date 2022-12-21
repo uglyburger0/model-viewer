@@ -1,5 +1,5 @@
 let scene = new THREE.Scene();
-let camera = new THREE.PerspectiveCamera( 45, window.innerWidth/window.innerHeight, 0.1, 5000 );
+let camera = new THREE.PerspectiveCamera( 45, window.innerWidth/window.innerHeight, 0.02, 5000 );
 
 let renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
